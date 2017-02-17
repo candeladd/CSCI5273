@@ -1,0 +1,18 @@
+if((val = strncmp(filename, "foo2", 4))==0)
+			{
+				strcat(filename, ".jpeg");
+				printf("string = %s\n", filename);
+				fp = fopen(filename, "w");
+			}
+			else if((val =strncmp(filename, "foo3", 4))==0)
+			{
+				strcat(filename, ".jpeg");
+				printf("string = %s\n", filename);
+				fp = fopen(filename, "w");
+			}
+			else if((val =strncmp(filename, "foo1", 4))==0)
+			{
+				strcat(filename, ".txt");
+				printf("string = %s\n", filename);
+				fp = fopen(filename, "a");
+			}

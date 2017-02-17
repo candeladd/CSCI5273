@@ -1,0 +1,26 @@
+Andrew Candelaresi
+CSCI 5273
+
+Distrubuted redundant file system
+
+USAGE
+Make sure all servers are running before starting the client! 
+When adding a username and password to the dfc.conf file please follow 
+this format
+
+Username: my_username
+
+Password: my_password
+
+When using GET, PUT, and LIST make sure the command is capitalized.
+
+COMPILE
+
+use command:make
+remove files with: make clean
+
+
+RUN
+
+./dfs DIRECTORY PORT_NUMBER
+./dfc dfc.conf
